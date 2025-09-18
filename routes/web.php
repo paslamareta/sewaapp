@@ -10,7 +10,7 @@ use App\Http\Controllers\DashboardController;
 use Inertia\Inertia;
 
 Route::get('/', function () {
-    return Inertia::render('Welcome');
+    return Inertia::render('auth/Login');
 })->name('home');
 
 Route::get('dashboard', function () {
